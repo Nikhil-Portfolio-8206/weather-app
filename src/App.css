@@ -30,9 +30,8 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 h2 {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: 600;
   color: black;
 }
 
@@ -90,4 +89,24 @@ button:hover {
   color: #ff3b3b;
   font-weight: bold;
   margin-top: 10px;
+}
+
+/* Style for city suggestion list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  background-color: #573f3f;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+}
+
+li:hover {
+  background-color: #7c3030;
 }
