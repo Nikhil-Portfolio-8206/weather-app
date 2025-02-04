@@ -1,0 +1,87 @@
+/* 🌤️ Weather-themed background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #2193b0, #6dd5ed); /* Blue gradient */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* 🎨 Main app container */
+.App {
+  width: 90%;
+  max-width: 450px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Glassmorphic effect */
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 Heading styles */
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* 🔎 Search input field */
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 🌈 Fancy button */
+button {
+  margin-top: 10px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff5722;
+  transform: scale(1.05);
+}
+
+/* 🌤️ Weather result box */
+.weather-info {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(34, 13, 13, 0.3);
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* 🚨 Error message styling */
+.error {
+  color: #ff3b3b;
+  font-weight: bold;
+  margin-top: 10px;
+}
