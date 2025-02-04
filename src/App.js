@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Weather /> {/* Display the Weather component */}
+      <h2>Created by Nikhil</h2>
     </div>
   );
 }

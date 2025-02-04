@@ -29,6 +29,12 @@ h1 {
   margin-bottom: 15px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: black;
+}
 
 /* 🔎 Search input field */
 input {
